@@ -2,7 +2,7 @@
 import math
 
 
-num = int(input("Enter a number: "))
+num = float(input("Enter a number: "))
 
 if num >= 0:
     print("Square root:", math.sqrt(num))

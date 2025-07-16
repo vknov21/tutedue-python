@@ -46,7 +46,7 @@ def click(user_input):
 
 if __name__ == "__main__":
     text_x = ["+", "-", "*", "/"]
-    text_y = ["=", "0", "Clear"]
+    text_y = ["Clear", "0", "="]
     for i in range(4):
         for j in range(4):
             op_colour = {}

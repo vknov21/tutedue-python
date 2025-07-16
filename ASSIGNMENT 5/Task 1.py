@@ -4,7 +4,7 @@ student = {}
 
 def store_data():
     name = input("Enter the student's name: ")
-    marks = int(input(name + "'s marks:"))
+    marks = int(input(name + "'s marks: "))
     student[name] = marks
 
 
